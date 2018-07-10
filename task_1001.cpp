@@ -26,7 +26,7 @@ int main() {
 //    auto& from = from_file;
     auto& from = std::cin;
 
-    std::vector<double> numbers = std::move(read_numbers(from));
+    std::vector<double> numbers = read_numbers(from);
 
     std::vector<double> sqrt_numbers(numbers.rbegin(), numbers.rend());
     for (auto& number:sqrt_numbers) {
