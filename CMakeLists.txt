@@ -15,4 +15,5 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(timus_cpp task_1264.cpp)
 #add_executable(timus_cpp task_1787.cpp)
 
-add_executable(timus_cpp task_1820.cpp)
+#add_executable(timus_cpp task_1820.cpp)
+add_executable(timus_cpp task_1197.cpp)
