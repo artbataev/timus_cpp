@@ -3,7 +3,7 @@
 #include <cmath>
 #include <iomanip>
 
-#define M_PI    3.14159265358979323846264338327950288
+constexpr double PI = 3.14159265358979323846264338327950288;
 
 struct Point {
     double x;
@@ -38,7 +38,7 @@ int main() {
         rope_length += compute_distance(points.front(), points.back());
     }
 
-    rope_length += M_PI * 2 * radius_of_nail;
+    rope_length += PI * 2 * radius_of_nail;
 
     std::cout << std::fixed << std::setprecision(2) << rope_length;
     return 0;
