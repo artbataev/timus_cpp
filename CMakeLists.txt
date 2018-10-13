@@ -83,4 +83,6 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(timus_cpp task_2010.cpp)
 #add_executable(timus_cpp task_1353.cpp)
 #add_executable(timus_cpp task_1079.cpp)
-add_executable(timus_cpp task_1777.cpp)
+#add_executable(timus_cpp task_1777.cpp)
+add_executable(timus_cpp task_1086.cpp)
+# solved: 55 + 4
