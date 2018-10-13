@@ -73,7 +73,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(timus_cpp task_1654.cpp)
 # solved: 45 + 4
 
-# next 10:
+# next 10, level >= 100:
 #add_executable(timus_cpp task_1020.cpp)
 #add_executable(timus_cpp task_1228.cpp)
 #add_executable(timus_cpp task_1330.cpp)
@@ -84,5 +84,8 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(timus_cpp task_1353.cpp)
 #add_executable(timus_cpp task_1079.cpp)
 #add_executable(timus_cpp task_1777.cpp)
-add_executable(timus_cpp task_1086.cpp)
+#add_executable(timus_cpp task_1086.cpp)
 # solved: 55 + 4
+
+# next 5, level >= 200
+add_executable(timus_cpp task_1249.cpp)
