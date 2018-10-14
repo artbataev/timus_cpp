@@ -88,4 +88,5 @@ set(CMAKE_CXX_STANDARD 17)
 # solved: 55 + 4
 
 # next 5, level >= 200
-add_executable(timus_cpp task_1249.cpp)
+#add_executable(timus_cpp task_1249.cpp)
+add_executable(timus_cpp task_1515.cpp)
